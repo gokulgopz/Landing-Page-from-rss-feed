@@ -1,0 +1,134 @@
+.container{
+     
+    background-color: rgb(129, 205, 255);
+    height: 5rem;  
+    padding-top:0; 
+    width: 100%;
+     
+   
+}
+ 
+.Logo  {
+    border-bottom: 8px solid rgb(150, 53, 53);
+    border-bottom-left-radius:12% ; display: flex; justify-content: center;
+    align-items: center;
+    
+}
+.main ul{
+    flex: 1;
+    padding-top: 10px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+    list-style : none;
+}
+.main ul li{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.main ul li a {
+    padding: 1rem;
+    column-gap: 12rem; 
+    color: rgb(116, 93, 93)
+
+}
+
+@media all and (max-width: 425px) { 
+    .container{
+        width: 100vh;
+         
+        background-color: rgb(129, 205, 255);
+        height: 5rem;  
+        padding-top:0;
+        
+         
+       
+    }
+    .main ul {
+        padding-top:8px ;
+    }
+    .main ul li a {
+        font-size: 19px; 
+        padding: 12px;
+  
+}
+
+
+.Logo{
+    border-bottom: 8px solid rgb(150, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+}
+
+
+/* tablet design here responsive */
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .container{
+        width: 100vh;
+         
+        background-color: rgb(129, 205, 255);
+        height: 5rem;  
+        padding-top:0;
+        
+       
+    }
+    .Logo{
+        border-bottom: 8px solid rgb(150, 53, 53);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+
+
+
+
+
+
+}
+
+
+/* desktop ready responsive design  */
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    .container{
+        width: 100%;
+         
+        background-color: rgb(129, 205, 255);
+        height: 5rem;  
+        padding-top:0;
+        
+       
+    }
+    .Logo{
+        border-bottom: 8px solid rgb(150, 53, 53);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

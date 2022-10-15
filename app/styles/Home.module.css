@@ -1,0 +1,253 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300&display=swap');
+
+.container {
+   
+  width: 100%;
+  border-top:20px solid #a545dd3d;
+  align-items: center;
+  background-color: azure;
+
+  
+}
+.container > h1{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  color: rgb(61, 61, 59);
+}
+
+
+
+.wrapper{
+  width: 100%;
+  
+   
+   
+}
+
+.section1{
+   
+  background: rgb(254,255,204);
+  background: linear-gradient(90deg, rgba(254,255,204,1) 0%, rgba(227,198,73,1) 100%);
+
+
+}
+
+.section1 > h1{
+  text-align: center;font-family: 'Kanit', sans-serif;
+  
+  
+}
+
+.content{
+  display: grid;
+  border: 35px solid rgba(214, 214, 214, 0.158);
+  border-radius: 52px;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 2em;
+  column-gap: 12px;margin:0 auto;
+}
+.content > div>h1{
+  font-size: 1.5em;
+  
+   
+  color: rgb(54, 52, 52);
+}
+
+
+/* cards design here */
+.content > div{
+   
+  text-align: center;
+  width:100%;
+  color: rgb(45, 28, 87);
+  border: 1px solid rgb(206, 206, 206);
+ 
+  background-color: beige;
+  margin:0 auto;
+  
+  
+}
+.content > div > h5 {
+  color: rgb(185, 158, 120);
+  border: 1px solid rgb(185, 185, 185);
+  border-width: 10%;
+  border-radius: 12%;
+  
+  
+   
+   
+}
+.content > div >p{
+  color: rgb(35, 41, 43);
+  border: 1px solid rgba(206, 206, 206, 0.171)   ;
+  border-bottom-left-radius:15% ;
+}
+
+  
+
+
+
+/* phone section design  */ 
+@media all and (max-width: 425px) { 
+
+
+  .content > div{
+   
+    text-align: center;
+    width:auto;
+    color: rgb(45, 28, 87);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 2px;
+    background-color: beige;
+    padding: 8px;
+    margin: 0 auto;
+  }
+
+  .content{
+    display: grid;
+    border: 3px solid rgba(214, 214, 214, 0.158);
+    border-radius: 40px;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 0.4em;
+    column-gap: 1.5em;}
+    .container {
+   
+      width: 100vh;
+      border-top:20px solid #a545dd3d;
+      align-items: center;
+      background-color: azure;
+    
+      
+    }
+
+
+
+
+
+}
+
+/* tablet design here responsive */
+@media all and (min-width: 425px) and (max-width: 768px) {
+
+
+
+
+
+
+
+  .content > div{
+   
+    text-align: center;
+    width:100%;
+    color: rgb(45, 28, 87);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 2px;
+    background-color: beige;
+    padding: 0.1em;
+    
+  }
+
+  .content{
+     
+    border-radius: 40px;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 0.4em;
+    
+    column-gap: 0.3em;}
+    .container {
+   
+      width: 100vh;
+      border-top:20px solid #a545dd3d;
+      
+      background-color: azure;
+    
+      
+    }
+    .content > div > h1{
+
+      font-size:25px;
+
+
+
+
+
+    }
+    .content > div > img{
+      width: 80.9%;
+
+    }
+
+
+
+
+
+ }
+ 
+
+/* desktop ready responsive design  */
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+  
+  .content{
+    display: grid;
+    border: 3px solid rgba(214, 214, 214, 0.158);
+    border-radius: 4px;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+     
+    
+    }
+
+    
+  .content > div{
+   
+    text-align: center;
+    width: 100%;
+    color: rgb(45, 28, 87);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 2px;
+    background-color: beige;
+     
+    
+  }
+  .content > div > img{
+    width: 85.9%;
+
+  }
+  .container {
+   
+    width: 100%;
+    border-top:20px solid #a545dd3d;
+    align-items: center;
+    background-color: azure;
+  
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+  
+ 
+
+ 
