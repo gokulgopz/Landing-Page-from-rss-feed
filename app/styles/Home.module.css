@@ -89,7 +89,7 @@
 
 
 /* phone section design  */ 
-@media all and (max-width: 425px) { 
+@media all and (min-width:100px) and ( max-width: 425px) { 
 
 
   .content > div{
@@ -185,11 +185,11 @@
  }
  
 
-/* desktop ready responsive design  */
+/* min laptop  ready responsive design  */
 
 
 
-@media all and (min-width: 1024px) and (max-width: 1280px) { 
+@media all and (min-width: 768px) and (max-width: 1280px) { 
   
   .content{
     display: grid;
@@ -230,13 +230,34 @@
 
 
 
+}
+@media all and (min-width: 1280) and (max-width: 1440px) { 
 
 
 
 
 
 
-
+  .content{
+    display: grid;
+    border: 3px solid rgba(214, 214, 214, 0.158);
+    border-radius: 4px;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 15px;
+     
+    
+  }
+  .content > div{
+   
+    text-align: center;
+    width: 100%;
+    color: rgb(45, 28, 87);
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 2px;
+    background-color: beige;
+     
+    
+  }
 
 
 

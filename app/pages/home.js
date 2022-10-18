@@ -25,7 +25,7 @@ export default function home() {
        // console.log(values.description)
         
       })
-      console.log(typeof datafeed)
+      // console.log(typeof datafeed)
       document.getElementById("content").innerHTML = datafeed;
 
     })
